@@ -14,6 +14,5 @@ public interface UserService {
     void updateUsersBeginningMonthAndWeek();
     ResponseEntity<Users> findById(Long udid);
     void createUser(Users users);
-    ResponseEntity<List<Users>> getUsersRating(String type);
     List<Users> getAllUsers();
 }

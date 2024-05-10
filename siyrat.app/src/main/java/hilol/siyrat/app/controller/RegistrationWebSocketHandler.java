@@ -11,7 +11,7 @@ import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
 
 @Component
-
+@JsonIgnoreProperties
 public class RegistrationWebSocketHandler extends TextWebSocketHandler {
     @Autowired
     private UserService userService;
